@@ -1,0 +1,46 @@
+/* ===== MAIN LAYOUT — KARANN BRAND ===== */
+
+/* Sidebar brand area */
+.ml-brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 14px 16px;
+    border-bottom: 1px solid rgba(77, 184, 239, 0.15);
+    min-height: 64px;
+    background: #091e52;
+    overflow: hidden;
+}
+
+.ml-brand-name {
+    color: white;
+    font-size: 16px;
+    font-weight: 800;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+/* Collapse trigger button override */
+.ant-layout-sider-trigger {
+    background: #091e52 !important;
+    border-top: 1px solid rgba(77, 184, 239, 0.1) !important;
+}
+
+.ant-layout-sider-trigger:hover {
+    background: #1a5ab8 !important;
+}
+
+/* Scrollbar styling for content */
+.ant-layout-content ::-webkit-scrollbar {
+    width: 6px;
+}
+
+.ant-layout-content ::-webkit-scrollbar-track {
+    background: #f1f5f9;
+}
+
+.ant-layout-content ::-webkit-scrollbar-thumb {
+    background: #4db8ef;
+    border-radius: 3px;
+}
